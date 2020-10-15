@@ -6,14 +6,16 @@
 }
 
 header {
-  height: 70px;
-  position: fixed;
-  z-index: 999;
+height: 70px;
+position: fixed;
+z-index: 999;
+background-color: #fff;
 }
 
 header .container {
-  position: fixed;
-  width: 100%;
+position: fixed;
+background-color: #fff;
+width: 100%;
 }
 
 header h1 {
@@ -31,24 +33,21 @@ header ul {
   float: right;
 }
 
-header ul a li {
+header ul li {
   padding: 24px;
   display: inline-block;
 }
 
 header ul a li {
   transition: .3s;
-  color: #f9f9f9;
-
 }
 
 header ul a li:hover {
-  color: #86b9f0;
+  color: #6eb4ff;
 }
 
 a {
   text-decoration: none;
-  color: #f9f9f9;
 }
 
 .container {
@@ -82,7 +81,7 @@ a {
   bottom: 0;
   left: -300px;
   width: 300px;
-  background-color: rgba(16, 47, 80, 0.9);
+  background-color: rgba(16, 47, 80, .9);
   transition: .3s;
   z-index: 9999;
 }
@@ -91,13 +90,13 @@ a {
   color: #fff;
 }
 
-.sidebar ul a li {
+.sidebar ul li {
   padding: 24px;
   transition: .3s;
   transition-property: background-color;
 }
 
-.sidebar ul a li:hover {
+.sidebar ul li:hover {
   background-color: #448cda;
 }
 
@@ -105,14 +104,10 @@ a {
   left: 0;
 }
 
-.banner{
-  position: relative;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url("../img/gentala.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 20% 0;
+.banner {
+  background-image: url("img/dafa.jpg");
+  background-color: #1F68B6;
+  padding: 150px 0;
 }
 
 section {
@@ -130,15 +125,17 @@ section {
 .banner p,
 .banner span,
 .banner h1 {
-  font-family: 'Courgette', cursive;
   color: #fff;
 }
 
+.banner h2 {
+  margin-top: 5%;
+}
+
 .banner h1 {
-  font-size: 1000%;
-  text-align: center;
-  color: white;
-  text-shadow: 4px 4px 5px #333;
+  font-size: 40px;
+  margin: 20px 20px 20px 0;
+  padding-right: 10px;
 }
 
 .banner-left {
@@ -174,27 +171,11 @@ section h3::after {
   left: calc(50% - 20px);
 }
 
-#about{
-  padding: 5% 0;
-}
-
-#about img {
-  width: 45%;
-  float: right;
-  border-radius: 10px;
-  box-shadow: 10px 10px 10px #7d8a99;
-}
-
-.textbox{
-  width: 50%;
-}
-
 #about p {
   text-align: justify;
-  /* text-indent: 30px; */
+  text-indent: 30px;
   line-height: 25px;
   margin-bottom: 15px;
-  padding-right: 10px;
 }
 
 #skills,
@@ -233,6 +214,10 @@ section h3::after {
   width: 50%;
 }
 
+.py {
+  width: 55%;
+}
+
 .cpp {
   width: 85%;
 }
@@ -268,6 +253,21 @@ section h3::after {
   margin-bottom: 15px;
 }
 
+.cv .vertical-center {
+  margin: 0 30%;
+  text-align: center;
+}
+
+.vertical-center img{
+  width: 50%
+}
+
+.vertical-center img:hover  {
+  opacity: 0.3;
+  text-shadow: 5px 5px 5px #12457a;
+  transition: 0.3s;
+}
+
 footer {
   background-color: #333;
   padding: 50px;
@@ -289,7 +289,7 @@ html {
   .mobile-menu div {
       width: 35px;
       height: 5px;
-      background-color: rgb(255, 255, 255);
+      background-color: black;
       margin: 6px 0;
   }
   header ul {
