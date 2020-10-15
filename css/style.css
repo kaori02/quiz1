@@ -6,16 +6,16 @@
 }
 
 header {
-    height: 70px;
-    position: fixed;
-    z-index: 999;
-    background-color: #fff;
+  height: 70px;
+  position: fixed;
+  z-index: 999;
+  background-color: #fff;
 }
 
 header .container {
-    position: fixed;
-    background-color: #fff;
-    width: 100%;
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
 }
 
 header h1 {
@@ -38,7 +38,7 @@ header ul li {
     display: inline-block;
 }
 
-header ul li a {
+header ul a li {
     transition: .3s;
 }
 

@@ -12,8 +12,8 @@ header {
 }
 
 header .container {
-    position: fixed;
-    width: 100%;
+  position: fixed;
+  width: 100%;
 }
 
 header h1 {
@@ -108,33 +108,37 @@ a {
 .banner{
   position: relative;
   background-image: url("../img/gentala.jpg");
+  height: 100%; 
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
-  padding: 300px 0;
+  background-size: cover;
+  padding: 20% 0;
 }
 
 section {
-    padding: 50px 0;
+  padding: 50px 0;
 }
 
 .banner img {
-    width: 45%;
-    float: right;
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px #12457a;
+  width: 45%;
+  float: right;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px #12457a;
 }
 
 .banner h2,
 .banner p,
 .banner span,
 .banner h1 {
-    color: #fff;
+  font-family: 'Courgette', cursive;
+  color: #fff;
 }
 
 .banner h1 {
-    font-size: 40px;
-    margin: 20px 20px 20px 0;
-    padding-right: 10px;
+    font-size: 220px;
+    text-align: center;
+    color: white;
+    text-shadow: 4px 4px 5px #333;
 }
 
 .banner-left {
@@ -170,11 +174,27 @@ section h3::after {
     left: calc(50% - 20px);
 }
 
+#about{
+  padding: 5% 0;
+}
+
+#about img {
+  width: 45%;
+  float: right;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px #7d8a99;
+}
+
+.textbox{
+  width: 50%;
+}
+
 #about p {
-    text-align: justify;
-    text-indent: 30px;
-    line-height: 25px;
-    margin-bottom: 15px;
+  text-align: justify;
+  /* text-indent: 30px; */
+  line-height: 25px;
+  margin-bottom: 15px;
+  padding-right: 10px;
 }
 
 #skills,
@@ -269,7 +289,7 @@ html {
     .mobile-menu div {
         width: 35px;
         height: 5px;
-        background-color: black;
+        background-color: rgb(255, 255, 255);
         margin: 6px 0;
     }
     header ul {
