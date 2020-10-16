@@ -190,6 +190,10 @@ section h3::after {
   width: 50%;
 }
 
+.textbox p{
+  text-indent: 3%;
+}
+
 #about p {
   text-align: justify;
   /* text-indent: 30px; */
