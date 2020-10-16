@@ -21,6 +21,7 @@ header h1 {
   float: left;
   padding: 15px 24px;
   text-transform: uppercase;
+  padding-left: 3%;
 }
 
 header h1 a {

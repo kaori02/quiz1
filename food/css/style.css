@@ -21,6 +21,7 @@ header h1 {
   float: left;
   padding: 15px 24px;
   text-transform: uppercase;
+  padding-left: 3%;
 }
 
 header h1 a {
@@ -189,7 +190,8 @@ section h3::after {
   flex: 0 50%;
   /*demo*/
   /* border: red solid; */
-  padding: 1% 5%;
+  padding: 0 5%;
+  padding-bottom: 5%;
   box-sizing:border-box;
 }
 
@@ -199,7 +201,7 @@ section h3::after {
 
 #about img {
   width: 80%;
-  margin: 10px;
+  margin: 5%;
   border-radius: 10px;
   box-shadow: 10px 10px 10px #7d8a99;
 }
@@ -214,7 +216,7 @@ section h3::after {
   /* text-indent: 30px; */
   line-height: 25px;
   margin-bottom: 15px;
-  padding-right: 10px;
+  padding: 0 10%;
 }
 
 #skills,
